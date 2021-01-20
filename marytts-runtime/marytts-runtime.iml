@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":marytts-runtime:integrationTest" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="de.dfki.mary" external.system.module.version="5.3-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -9,54 +9,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="marytts-common" />
-    <orderEntry type="module-library">
-      <library name="log4j-api-2.14.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.14.0.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.14.0-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.14.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="log4j-core-2.14.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.14.0.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.14.0-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.14.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="commons-lang-2.6">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="module" module-name="marytts-signalproc" />
     <orderEntry type="module-library">
-      <library name="guava-30.1-jre">
+      <library name="commons-collections-3.2.2">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/guava-30.1-jre.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.2.jar!/" />
         </CLASSES>
-        <JAVADOC />
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.2-javadoc.jar!/" />
+        </JAVADOC>
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/guava-30.1-jre-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.2-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -74,28 +37,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="commons-collections-3.2.2">
+      <library name="commons-lang-2.6">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6.jar!/" />
         </CLASSES>
         <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.2-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="jama-1.0.3">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/jama-1.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/jama-1.0.3-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/jama-1.0.3-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -109,6 +59,26 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/fast-md5-2.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guava-30.1-jre">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/guava-30.1-jre.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/guava-30.1-jre-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="hsqldb-2.5.1">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/hsqldb-2.5.1.jar!/" />
@@ -118,28 +88,6 @@
         </JAVADOC>
         <SOURCES>
           <root url="jar://$MODULE_DIR$/lib/hsqldb-2.5.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/jtok-core-1.9.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="opennlp-tools-1.9.3">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/opennlp-tools-1.9.3.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/opennlp-tools-1.9.3-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/opennlp-tools-1.9.3-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -170,9 +118,83 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="jama-1.0.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jama-1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/jama-1.0.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/jama-1.0.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/fast-md5-2.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jtok-core-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-api-2.14.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.14.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.14.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-api-2.14.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-core-2.14.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.14.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.14.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-core-2.14.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="opennlp-tools-1.9.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/opennlp-tools-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/opennlp-tools-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/opennlp-tools-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-2.0.0-alpha1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/slf4j-api-2.0.0-alpha1.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/lib/slf4j-api-2.0.0-alpha1-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/slf4j-api-2.0.0-alpha1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/swing-layout-1.0.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -188,29 +210,6 @@
         </JAVADOC>
         <SOURCES>
           <root url="jar://$MODULE_DIR$/lib/trove4j-2.0.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module" module-name="voice-cmu-slt-hsmm" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/swing-layout-1.0.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="slf4j-api-2.0.0-alpha1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/slf4j-api-2.0.0-alpha1.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/lib/slf4j-api-2.0.0-alpha1-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/lib/slf4j-api-2.0.0-alpha1-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
