@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/marytts-common/marytts-common.iml" filepath="$PROJECT_DIR$/marytts-common/marytts-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/marytts-runtime/marytts-runtime.iml" filepath="$PROJECT_DIR$/marytts-runtime/marytts-runtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/marytts-signalproc/marytts-signalproc.iml" filepath="$PROJECT_DIR$/marytts-signalproc/marytts-signalproc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-cmu-slt-hsmm/voice-cmu-slt-hsmm.iml" filepath="$PROJECT_DIR$/voice-cmu-slt-hsmm/voice-cmu-slt-hsmm.iml" />
     </modules>
   </component>
 </project>
