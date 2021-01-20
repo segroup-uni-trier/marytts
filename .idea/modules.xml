@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/marytts.iml" filepath="$PROJECT_DIR$/marytts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marytts-common/marytts-common.iml" filepath="$PROJECT_DIR$/marytts-common/marytts-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marytts-runtime/marytts-runtime.iml" filepath="$PROJECT_DIR$/marytts-runtime/marytts-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marytts-signalproc/marytts-signalproc.iml" filepath="$PROJECT_DIR$/marytts-signalproc/marytts-signalproc.iml" />
+    </modules>
+  </component>
+</project>

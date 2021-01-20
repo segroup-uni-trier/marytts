@@ -9,8 +9,10 @@ bin/
 .classpath
 
 # IDEA
-*.iml
-.idea/
+.idea/*
+!.idea/modules.xml
+!.idea/libraries
+out
 
 # misc. testing
 tmp/

@@ -1,0 +1,10 @@
+<ivy-module version="2.4">
+    <info organisation="dfki" module="marytts-common"/>
+    <dependencies>
+        <dependency org="commons-lang" name="commons-lang" rev="2.6" transitive="false"/>
+        <dependency org="commons-io" name="commons-io" rev="2.8.0" transitive="false"/>
+        <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.14.0" transitive="false"/>
+        <dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.14.0" transitive="false"/>
+        <dependency org="org.testng" name="testng" rev="7.3.0" transitive="false"/>
+    </dependencies>
+</ivy-module>
